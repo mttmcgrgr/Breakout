@@ -1,0 +1,40 @@
+
+
+
+
+
+
+canvas {
+  display: flex;
+  justify-content: center;
+  background: #b1cdcd;
+  font-size: 18px;
+  padding-right: 0px;
+  padding-top: 0px;
+  font-family: 'VT323', monospace;
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  font-family: 'VT323', monospace;
+  background-color: grey;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.instructions {
+  font-family: 'VT323', monospace;
+  position: relative;
+  top: 0px;
+  right: -90px;
+  text-align: : center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
