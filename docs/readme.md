@@ -11,13 +11,13 @@ There have been many sequels to the original game with various tweaks to the for
 
 Users will be able to:
 
-- [ ] Start, pause, reset the game and toggle sound
+- [ ] Start, pause, reset the game
 - [ ] Use arrow keys to manipulate the paddle left and right
 - [ ] Advance through increasingly difficult levels
 
 In addition, this project will include:
 
-- [ ] An About modal describing the background and rules of the game
+- [ ] A sidebar describing the background and rules of the game
 - [ ] A production Readme
 
 ### Wireframes

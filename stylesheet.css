@@ -1,9 +1,5 @@
 
 
-
-
-
-
 canvas {
   display: flex;
   justify-content: center;
@@ -13,6 +9,10 @@ canvas {
   padding-top: 0px;
   font-family: 'VT323', monospace;
 }
+
+ document {
+   font-family: 'VT323', monospace;
+ }
 
 body {
   display:flex;
@@ -25,16 +25,16 @@ footer {
   display: flex;
   justify-content: flex-end;
   position: relative;
+  font: Arial
 }
 
 .instructions {
   font-family: 'VT323', monospace;
   position: relative;
-  top: 0px;
-  right: -90px;
+  top: 200px;
+  right: -50px;
   text-align: : center;
-  justify-content: center;
+  justify-content: flex-start;
   display: flex;
   flex-direction: column;
-
 }
