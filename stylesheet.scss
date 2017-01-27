@@ -7,17 +7,16 @@ canvas {
   font-size: 18px;
   padding-right: 0px;
   padding-top: 0px;
-  font-family: 'VT323', monospace;
+  font-family: 'Courier', monospace;
+  border: 5px solid #000000;
 }
 
- document {
-   font-family: 'VT323', monospace;
- }
 
 body {
+  background-image: url("http://res.cloudinary.com/dccshngpp/image/upload/v1485486540/tmx6W6N_ucauzl.png");
   display:flex;
   justify-content: center;
-  font-family: 'VT323', monospace;
+  font-family: 'Courier', monospace;
   background-color: grey;
 }
 
@@ -25,11 +24,16 @@ footer {
   display: flex;
   justify-content: flex-end;
   position: relative;
-  font: Arial
+  font-size: 20px;
+}
+
+.font_load {
+  font-family: 'Courier', monospace;
+  font-size: 1px;
 }
 
 .instructions {
-  font-family: 'VT323', monospace;
+  font-family: 'Courier', monospace;
   position: relative;
   top: 200px;
   right: -50px;

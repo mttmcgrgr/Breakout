@@ -3,19 +3,25 @@
   <head>
       <meta charset="utf-8" />
       <title>Breakout!</title>
-      <link rel="stylesheet" media="screen" href="stylesheet.css">
+      <link rel="stylesheet" media="screen" href="stylesheet.scss">
       <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+      <style>
+        @import url('https://fonts.googleapis.com/css?family=VT323');
+      </style>
   </head>
   <body>
-    <canvas id="breakout" width="950"  height="600"></canvas>
+    <h1 style="font-family: 'VT323', monospace;"> </h1>
+    <canvas id="myCanvas" width="950"  height="600" class=""></canvas>
     <script type="text/javascript" src="lib/bundle.js"></script>
+
   </body>
   <footer>
     <div class="instructions">
       <h3> CONTROLS </h3>
-      <div>    N = New Game</div>
-      <div>   Up = Launch Ball / Pause</div>
-      <div> Left = Paddle Left</div>
+      <div>N = New Game</div>
+      <div>S = Toggle Sound</div>
+      <div>Up = Launch Ball / Pause</div>
+      <div>Left = Paddle Left</div>
       <div>Right = Paddle Right </div>
     </div>
   </footer>
