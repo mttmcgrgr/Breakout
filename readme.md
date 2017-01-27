@@ -41,8 +41,8 @@ The following stats are tracked during play:
 ### Collision Detection
 
 On each rendering of the canvas, blocks are iterated through and compared against the
-current position of the ball. If the ball falls within the paramters of the block, the
-block's "destroyed" attribute is change from false to true, the "points" value of the block is added to the score and the ball's trajectory on each frame is reversed. On the following render, the drawBlocks method only renders blocks with a "destroyed" value of false to the canvas.
+current position of the ball. If the ball falls within the parameters of the block, the
+block's "destroyed" attribute is change from false to true, the "points" value of the block is added to the score and the ball's trajectory  is altered. On the following render, the drawBlocks method only renders blocks with a "destroyed" value of false to the canvas.
 
 
 ### Future Additions
