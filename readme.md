@@ -9,7 +9,7 @@ progresses through a series of increasingly difficult levels to obtain the
 highest score possible by breaking blocks and keeping the ball
 in bounds using the paddle.
 
-![breakout](images/breakout!.png)
+![breakout](docs/images/breakout!.png)
 
 
 
